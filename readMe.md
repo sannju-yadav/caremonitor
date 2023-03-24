@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS measurements.vitals
 iv.     Set the proper db credentials into db/connection.js
 v.      clone the code from the github(https://github.com/sannju-yadav/caremonitor)
 vi.     Go inside the code folder open terminal and Run "npm i" to install the dependencies.
-vii.    Now run "node app.js".
+vii.    Now run "npm run start".
 viii.    Call the below mentioned API with the payload mentioned in the clinical_metrics.json
 
 POST http://localhost:3000/process.
